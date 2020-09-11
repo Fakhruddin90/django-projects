@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal Info</title>
+    </head>
+    
+    <body>
+        <h1>Personal Info</h1>
+        <ul>
+            {% for person in personal %}
+            <li>
+                {{ person }}
+            </li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
